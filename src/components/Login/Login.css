@@ -1,0 +1,22 @@
+.login-wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+label.MuiFormLabel-root {
+    font-size: 14px;
+    margin-top: -3px;
+}
+.MuiInputBase-input {
+    font-size: 14px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+.color-red {
+    color: red;
+}
