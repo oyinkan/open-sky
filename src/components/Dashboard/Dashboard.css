@@ -25,15 +25,17 @@
 }
 
 
-@media screen and (max-width: 576px) {
-    .airport-card {
-        width: 100%;
-        margin: 3rem;
-    }
-}
+
 
 @media screen and (max-width: 900px) {
     .airport-card {
         width: 48%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .airport-card {
+        width: 100%;
+        margin: 3rem;
     }
 }

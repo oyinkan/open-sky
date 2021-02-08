@@ -20,3 +20,10 @@ h2 {
 .color-red {
     color: red;
 }
+
+@media screen and (max-width: 768px) {
+    .login-wrapper {
+        width: 90%;
+        margin: auto;
+    }
+}
