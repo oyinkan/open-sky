@@ -12,3 +12,28 @@
     margin: 2rem;
     margin-bottom: 5rem;
 }
+.airport-card {
+    width: 30%;
+    padding: 5rem 3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+.MuiButton-containedPrimary:hover {
+    background: transparent!important;
+    border: 1px solid #557d48;
+    color: #557d48;
+}
+
+
+@media screen and (max-width: 576px) {
+    .airport-card {
+        width: 100%;
+        margin: 3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .airport-card {
+        width: 48%;
+    }
+}
